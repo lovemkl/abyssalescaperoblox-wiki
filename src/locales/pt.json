@@ -1,0 +1,396 @@
+{
+  "site": {
+    "name": "Abyssal Escape Roblox Wiki",
+    "shortName": "Abyssal Escape Roblox",
+    "tagline": "Wiki de fãs",
+    "description": "Fan wiki for Abyssal Escape, the Roblox asymmetric horror game — killer roster and abilities, survivor mechanics, the red mist, and guides from launch day.",
+    "legalNotice": "Wiki independente. Sem afiliação com os desenvolvedores ou a Roblox Corporation."
+  },
+  "nav": {
+    "guides": "Guias",
+    "killers": "Killers",
+    "tips": "Dicas",
+    "faq": "FAQ",
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Abyssal Escape Roblox Wiki: Killers, névoa e sobrevivência",
+      "description": "Abyssal Escape é o jogo de terror assimétrico do Roblox — killers com fases, coordenação de sobreviventes, a névoa vermelha e guias desde o lançamento."
+    },
+    "hero": {
+      "eyebrow": "Wiki de fãs",
+      "title": "Abyssal Escape Roblox",
+      "description": "Abyssal Escape is a Roblox asymmetric horror game where Survivors must coordinate to dispel an encroaching red mist and escape before things take a turn for the worse. One side plays the Survivors — coordinating, completing objectives and pushing back the mist; the other plays the Killer — a roster of horror icons with distinct phases and abilities hunting them through the dark. Released October 17, 2026 on Roblox by Den_zee's development group, the game already has a passionate community, a wiki ecosystem, killer gameplay videos and a Discord buzzing with sneak peeks. This wiki covers it from launch day: how to play, the killer roster, survivor strategies and every question in between.",
+      "primaryCta": "Ler o guia completo",
+      "secondaryCta": "Ver gameplay de Killer",
+      "tertiaryCta": "Todos os guias",
+      "stats": [
+        "Asymmetric Horror",
+        "Killer Roster with Phases",
+        "Red Mist Mechanic",
+        "Launched Oct 17, 2026"
+      ]
+    },
+    "updates": {
+      "title": "Fresh From the Abyss",
+      "browse": "Browse All Guides",
+      "viewAll": "View All"
+    },
+    "start": {
+      "eyebrow": "Escaping In Four Steps",
+      "title": "From First Round to Consistent Escapes",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Know the Game",
+          "description": "Abyssal Escape launched October 17 on Roblox — the complete guide explains the asymmetric loop, the red mist and what's at stake."
+        },
+        {
+          "number": "2",
+          "title": "Learn to Play",
+          "description": "Survivor or Killer — the how-to guide covers both sides' basics, from queue to escape or kill."
+        },
+        {
+          "number": "3",
+          "title": "Study the Killers",
+          "description": "The Maniac, The Furnace and the growing roster — each killer's phases and abilities mapped as the community documents them."
+        },
+        {
+          "number": "4",
+          "title": "Master Survival",
+          "description": "Coordination beats panic — the survivor strategies page covers the mist, the team play and the escape patterns."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Most-Read This Week",
+      "title": "Trending Now",
+      "quickLinks": [
+        "How to Play",
+        "Killers",
+        "The Maniac",
+        "Survivor Tips"
+      ],
+      "cards": [
+        {
+          "title": "Abyssal Escape Guide",
+          "description": "The complete orientation — the loop, the mist, the sides and the stakes."
+        },
+        {
+          "title": "How to Play",
+          "description": "Both sides' basics — queue, objectives, mist mechanics, escape or kill."
+        },
+        {
+          "title": "The Killer Roster",
+          "description": "The Maniac, The Furnace and the roster as it grows — phases and abilities mapped."
+        },
+        {
+          "title": "Survivor Strategies",
+          "description": "The coordination playbook — mist priority, team roles and escape patterns."
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "What Is Abyssal Escape?",
+      "paragraphs": [
+        "Abyssal Escape is an asymmetrical horror game on Roblox, released October 17, 2026, where the classic cat-and-mouse formula gets a specific twist: the Survivors aren't just running — they're dispelling an encroaching red mist that steadily consumes the map, coordinating their efforts to push it back and complete their escape before the mist, or the Killer, ends the round. On the other side, the Killer roster — named horror archetypes like The Maniac and The Furnace — hunts with distinct phases and abilities that the community is already cataloguing kill-by-kill.",
+        "The game launched with a wave of community energy: a release-date announcement trailer, killer gameplay videos from Day 1 creators, an active Discord with sneak peeks of upcoming killers, and a wiki ecosystem (including the official abyssalescape.wiki) documenting every phase and ability as it's discovered. Developed under Den_zee's Roblox group (~2,400 members at launch and growing), Abyssal Escape entered the Roblox horror arena at full sprint. This wiki is the fan companion from launch day — both sides' guides, the roster, the strategies and the answers."
+      ],
+      "stats": [
+        {
+          "label": "Platform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Asymmetric Horror"
+        },
+        {
+          "label": "Released",
+          "value": "Oct 17, 2026"
+        },
+        {
+          "label": "Developer",
+          "value": "Den_zee Group"
+        },
+        {
+          "label": "Core Mechanic",
+          "value": "The Red Mist"
+        },
+        {
+          "label": "Killers at Launch",
+          "value": "Roster Growing"
+        }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "explore": {
+      "title": "Everything About the Abyss, Mapped",
+      "description": "Guides, killers, strategies and answers — the complete toolkit.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Abyssal Escape Guide",
+          "description": "The complete orientation.",
+          "href": "/guide/abyssal-escape-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "The asymmetric loop — Survivors vs Killer"
+            },
+            {
+              "label": "2",
+              "detail": "The red mist and what it demands"
+            },
+            {
+              "label": "3",
+              "detail": "Launch day and the community around it"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "How to Play",
+          "description": "Both sides' basics.",
+          "href": "/guide/how-to-play",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Queueing in and choosing your side"
+            },
+            {
+              "label": "2",
+              "detail": "Survivor objectives and the mist"
+            },
+            {
+              "label": "3",
+              "detail": "Killer basics — hunt, phases, pressure"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "The Killer Roster",
+          "description": "The horror lineup.",
+          "href": "/killers/killer-roster",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "The Maniac — the launch face of the roster"
+            },
+            {
+              "label": "A",
+              "detail": "The Furnace — the community's early favorite"
+            },
+            {
+              "label": "B",
+              "detail": "Phases and abilities — how killers escalate"
+            },
+            {
+              "label": "C",
+              "detail": "The roadmap — sneak peeks and upcoming killers"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Survivor Strategies",
+          "description": "The coordination playbook.",
+          "href": "/tips/survivor-strategies",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Mist priority — what to dispel and when"
+            },
+            {
+              "label": "A",
+              "detail": "Team roles — the coordinator, the runner, the anchor"
+            },
+            {
+              "label": "B",
+              "detail": "Killer-specific survival adjustments"
+            },
+            {
+              "label": "C",
+              "detail": "The mistakes that end runs early"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "The Red Mist",
+          "description": "The core mechanic.",
+          "href": "/tips/the-red-mist",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "🌫",
+              "detail": "What the mist is and why it advances"
+            },
+            {
+              "label": "🧯",
+              "detail": "Dispel mechanics — how survivors push back"
+            },
+            {
+              "label": "⏱",
+              "detail": "The pressure clock — pacing the round"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Killer Strategies",
+          "description": "Playing the dark side.",
+          "href": "/tips/killer-strategies",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Map control and mist synergy"
+            },
+            {
+              "label": "A",
+              "detail": "Phase timing — when to escalate"
+            },
+            {
+              "label": "B",
+              "detail": "Patrol routes and prediction"
+            },
+            {
+              "label": "C",
+              "detail": "Playing from behind — comeback patterns"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "The Community",
+          "description": "Where the game lives.",
+          "href": "/guide/the-community",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "🐦",
+              "detail": "@AbyssalEscape on X — announcements and reveals"
+            },
+            {
+              "label": "💬",
+              "detail": "The Discord — sneak peeks and voice coordination"
+            },
+            {
+              "label": "📖",
+              "detail": "The wiki ecosystem and content creators"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "FAQ",
+          "description": "The straight answers.",
+          "href": "/faq/faq",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "❓",
+              "detail": "Is it out? Is it free? What's the mist?"
+            },
+            {
+              "label": "🎮",
+              "detail": "Solo queue or squad — which to learn in"
+            },
+            {
+              "label": "🔪",
+              "detail": "How do killer phases work?"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers to the most common questions about Abyssal Escape.",
+      "items": [
+        {
+          "question": "What is Abyssal Escape?",
+          "answer": "A Roblox asymmetric horror game where Survivors coordinate to dispel an encroaching red mist and escape, while a Killer with distinct phases and abilities hunts them. Released October 17, 2026, developed by Den_zee's Roblox group."
+        },
+        {
+          "question": "Is Abyssal Escape out?",
+          "answer": "Yes — released October 17, 2026 on Roblox. The game page is live, the Discord is active with sneak peeks, and the killer roster is growing post-launch."
+        },
+        {
+          "question": "What is the red mist?",
+          "answer": "The core mechanic: an encroaching mist that steadily consumes the map, pressuring Survivors to coordinate their dispelling efforts while the Killer hunts. It's the clock, the threat and the objective pressure in one system — the tips pages cover its mechanics in depth."
+        },
+        {
+          "question": "Who are the killers?",
+          "answer": "A roster of horror archetypes with distinct phases and abilities — The Maniac and The Furnace are the launch-window killers the community has documented, with more teased in the Discord. The killer roster page maps each one's phases as they're catalogued."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "The mist is rising.",
+      "description": "The guides, the killer roster, the strategies and the answers — everything to survive or hunt in Abyssal Escape from day one.",
+      "primary": "Read the Complete Guide",
+      "secondary": "Play on Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "activeCodes": "Rastreador de lançamento",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os guias",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice de conteúdos",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leituras relacionadas",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Abyssal Escape Roblox Wiki",
+    "about": "Abyssal Escape Roblox Wiki is an independent fan-built wiki covering the Roblox asymmetric horror game — the killer roster and abilities, survivor strategies, the red mist and the community, written from play and updated as the roster grows.",
+    "quickLinks": "Quick Links",
+    "guides": "Guides",
+    "legal": "Legal",
+    "copyright": "2026 Abyssal Escape Roblox Wiki. Sem afiliação com os desenvolvedores ou a Roblox Corporation.",
+    "description": "The Abyssal Escape wiki — killers, survivor strategies, the red mist and launch-day guides.",
+    "playGame": "Play on Roblox",
+    "officialDiscord": "The Discord",
+    "officialYoutube": "@AbyssalEscape",
+    "epicStore": "Roblox",
+    "beginnerGuide": "Complete Guide",
+    "mapGuides": "How to Play",
+    "weaponsGuides": "Killer Roster",
+    "buildGuide": "Survivor Strategies",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Guias",
+    "overviewDescription": "Every Abyssal Escape guide — the complete orientation, both sides' basics and the community map."
+  },
+  "killers": {
+    "overviewTitle": "Killers",
+    "overviewDescription": "The killer roster — phases, abilities and the playbook for hunting Survivors through the mist."
+  },
+  "tips": {
+    "overviewTitle": "Dicas",
+    "overviewDescription": "The survivor and killer strategy pages — the mist, the coordination and the escape patterns."
+  },
+  "faq": {
+    "overviewTitle": "FAQ",
+    "overviewDescription": "Straight answers about the game — the release, the mist, the killers and the platforms."
+  }
+}

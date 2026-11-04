@@ -1,0 +1,453 @@
+{
+ "generatedAt": "2026-11-04T07:10:59.722Z",
+ "items": [
+  {
+   "contentType": "faq",
+   "slug": "faq",
+   "title": "Abyssal Escape FAQ",
+   "date": "2026-10-18",
+   "category": "faq",
+   "headings": [
+    {
+     "id": "what-is-abyssal-escape",
+     "text": "What Is Abyssal Escape?",
+     "level": 2
+    },
+    {
+     "id": "is-abyssal-escape-out",
+     "text": "Is Abyssal Escape Out?",
+     "level": 2
+    },
+    {
+     "id": "what-is-the-red-mist",
+     "text": "What Is the Red Mist?",
+     "level": 2
+    },
+    {
+     "id": "who-are-the-killers",
+     "text": "Who Are the Killers?",
+     "level": 2
+    },
+    {
+     "id": "is-it-free",
+     "text": "Is It Free?",
+     "level": 2
+    },
+    {
+     "id": "solo-queue-or-squad-which-to-learn-in",
+     "text": "Solo Queue or Squad — Which to Learn In?",
+     "level": 2
+    },
+    {
+     "id": "how-do-killer-phases-work",
+     "text": "How Do Killer Phases Work?",
+     "level": 2
+    },
+    {
+     "id": "where-does-the-community-live",
+     "text": "Where Does the Community Live?",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "abyssal-escape-guide",
+   "title": "Abyssal Escape: The Complete Guide",
+   "badge": "Start Here",
+   "date": "2026-10-18",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "the-premise-the-mist-is-the-clock",
+     "text": "The Premise: The Mist Is the Clock",
+     "level": 2
+    },
+    {
+     "id": "both-sides-of-the-loop",
+     "text": "Both Sides of the Loop",
+     "level": 2
+    },
+    {
+     "id": "launch-day-and-the-community",
+     "text": "Launch Day and the Community",
+     "level": 2
+    },
+    {
+     "id": "why-the-word-coordinate-matters",
+     "text": "Why the Word \"Coordinate\" Matters",
+     "level": 2
+    },
+    {
+     "id": "who-this-game-is-for",
+     "text": "Who This Game Is For",
+     "level": 2
+    },
+    {
+     "id": "this-wikis-promise",
+     "text": "This Wiki's Promise",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "how-to-play",
+   "title": "How to Play Abyssal Escape: Both Sides",
+   "date": "2026-10-18",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "getting-in",
+     "text": "Getting In",
+     "level": 2
+    },
+    {
+     "id": "playing-survivor-the-three-front-attention-economy",
+     "text": "Playing Survivor: The Three-Front Attention Economy",
+     "level": 2
+    },
+    {
+     "id": "playing-killer-pressure-phases-and-control",
+     "text": "Playing Killer: Pressure, Phases and Control",
+     "level": 2
+    },
+    {
+     "id": "the-first-round-mistake-catalog",
+     "text": "The First-Round Mistake Catalog",
+     "level": 2
+    },
+    {
+     "id": "your-first-evening-planned",
+     "text": "Your First Evening, Planned",
+     "level": 2
+    },
+    {
+     "id": "the-learning-arc-calibrated",
+     "text": "The Learning Arc, Calibrated",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "guide",
+   "slug": "the-community",
+   "title": "The Abyssal Escape Community: Where the Game Lives",
+   "date": "2026-10-18",
+   "category": "guide",
+   "headings": [
+    {
+     "id": "the-official-channels",
+     "text": "The Official Channels",
+     "level": 2
+    },
+    {
+     "id": "the-discord-sneak-peeks-and-squad-central",
+     "text": "The Discord: Sneak Peeks and Squad Central",
+     "level": 2
+    },
+    {
+     "id": "the-wiki-ecosystem",
+     "text": "The Wiki Ecosystem",
+     "level": 2
+    },
+    {
+     "id": "the-creators",
+     "text": "The Creators",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "killers",
+   "slug": "killer-roster",
+   "title": "The Abyssal Escape Killer Roster: Phases and Abilities",
+   "date": "2026-10-18",
+   "category": "killers",
+   "headings": [
+    {
+     "id": "the-rosters-design-signature-phases",
+     "text": "The Roster's Design Signature: Phases",
+     "level": 2
+    },
+    {
+     "id": "the-maniac",
+     "text": "The Maniac",
+     "level": 2
+    },
+    {
+     "id": "the-furnace",
+     "text": "The Furnace",
+     "level": 2
+    },
+    {
+     "id": "the-roadmap-whats-teased",
+     "text": "The Roadmap: What's Teased",
+     "level": 2
+    },
+    {
+     "id": "reading-the-roster",
+     "text": "Reading the Roster",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "killers",
+   "slug": "killer-tier-list",
+   "title": "Abyssal Escape Killer Tier List: Community Rankings by Phase Mastery",
+   "badge": "Tier List",
+   "date": "2026-11-04",
+   "category": "killers",
+   "headings": [
+    {
+     "id": "how-this-tier-list-is-built",
+     "text": "How This Tier List Is Built",
+     "level": 2
+    },
+    {
+     "id": "the-tier-list",
+     "text": "The Tier List",
+     "level": 2
+    },
+    {
+     "id": "why-the-furnace-tops-the-list",
+     "text": "Why The Furnace Tops the List",
+     "level": 2
+    },
+    {
+     "id": "why-the-maniac-stays-a-tier-not-s",
+     "text": "Why The Maniac Stays A-Tier (Not S)",
+     "level": 2
+    },
+    {
+     "id": "reading-tiers-in-a-phase-game",
+     "text": "Reading Tiers in a Phase Game",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    },
+    {
+     "id": "who-is-the-best-killer-in-abyssal-escape",
+     "text": "Who is the best killer in Abyssal Escape?",
+     "level": 3
+    },
+    {
+     "id": "do-tiers-change-as-the-roster-grows",
+     "text": "Do tiers change as the roster grows?",
+     "level": 3
+    },
+    {
+     "id": "which-killer-should-a-new-killer-player-learn-first",
+     "text": "Which killer should a new killer-player learn first?",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "contentType": "killers",
+   "slug": "the-furnace-guide",
+   "title": "The Furnace — Abyssal Escape Killer Guide: Zones, Phases and the Kill-Box",
+   "badge": "Killer Guide",
+   "date": "2026-11-04",
+   "category": "killers",
+   "headings": [
+    {
+     "id": "who-is-the-furnace",
+     "text": "Who Is The Furnace?",
+     "level": 2
+    },
+    {
+     "id": "the-core-loop-zone-denial-compounds-the-mist",
+     "text": "The Core Loop: Zone Denial Compounds the Mist",
+     "level": 2
+    },
+    {
+     "id": "phase-by-phase-playbook",
+     "text": "Phase-by-Phase Playbook",
+     "level": 2
+    },
+    {
+     "id": "the-survivors-counterplay",
+     "text": "The Survivors' Counterplay",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    },
+    {
+     "id": "is-the-furnace-the-best-killer-in-abyssal-escape",
+     "text": "Is The Furnace the best killer in Abyssal Escape?",
+     "level": 3
+    },
+    {
+     "id": "how-does-the-furnace-differ-from-the-maniac",
+     "text": "How does The Furnace differ from The Maniac?",
+     "level": 3
+    },
+    {
+     "id": "what-should-survivors-do-against-the-furnace",
+     "text": "What should survivors do against The Furnace?",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "contentType": "killers",
+   "slug": "the-maniac-guide",
+   "title": "The Maniac — Abyssal Escape Killer Guide: Fundamentals, Phases and the Skill Ceiling",
+   "badge": "Killer Guide",
+   "date": "2026-11-04",
+   "category": "killers",
+   "headings": [
+    {
+     "id": "who-is-the-maniac",
+     "text": "Who Is The Maniac?",
+     "level": 2
+    },
+    {
+     "id": "why-hes-the-learning-pick",
+     "text": "Why He's the Learning Pick",
+     "level": 2
+    },
+    {
+     "id": "phase-by-phase-playbook",
+     "text": "Phase-by-Phase Playbook",
+     "level": 2
+    },
+    {
+     "id": "the-matchup-lesson-he-teaches",
+     "text": "The Matchup Lesson He Teaches",
+     "level": 2
+    },
+    {
+     "id": "faq",
+     "text": "FAQ",
+     "level": 2
+    },
+    {
+     "id": "is-the-maniac-good-for-new-killer-players",
+     "text": "Is The Maniac good for new killer players?",
+     "level": 3
+    },
+    {
+     "id": "what-are-the-maniacs-abilities",
+     "text": "What are The Maniac's abilities?",
+     "level": 3
+    },
+    {
+     "id": "how-does-the-maniac-compare-to-the-furnace",
+     "text": "How does The Maniac compare to The Furnace?",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "contentType": "tips",
+   "slug": "killer-strategies",
+   "title": "Abyssal Escape Killer Strategies: Playing the Dark Side",
+   "date": "2026-10-18",
+   "category": "tips",
+   "headings": [
+    {
+     "id": "map-control-through-the-mist",
+     "text": "Map Control Through the Mist",
+     "level": 2
+    },
+    {
+     "id": "phase-timing-the-escalation-discipline",
+     "text": "Phase Timing: The Escalation Discipline",
+     "level": 2
+    },
+    {
+     "id": "patrol-logic-and-prediction",
+     "text": "Patrol Logic and Prediction",
+     "level": 2
+    },
+    {
+     "id": "playing-from-behind-the-comeback-patterns",
+     "text": "Playing From Behind: The Comeback Patterns",
+     "level": 2
+    },
+    {
+     "id": "the-killers-closing-discipline",
+     "text": "The Killer's Closing Discipline",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "tips",
+   "slug": "survivor-strategies",
+   "title": "Abyssal Escape Survivor Strategies: The Coordination Playbook",
+   "date": "2026-10-18",
+   "category": "tips",
+   "headings": [
+    {
+     "id": "mist-priority-the-discipline-that-wins-rounds",
+     "text": "Mist Priority: The Discipline That Wins Rounds",
+     "level": 2
+    },
+    {
+     "id": "team-roles-the-launch-week-meta",
+     "text": "Team Roles: The Launch-Week Meta",
+     "level": 2
+    },
+    {
+     "id": "killer-specific-adjustments",
+     "text": "Killer-Specific Adjustments",
+     "level": 2
+    },
+    {
+     "id": "the-mistake-catalog",
+     "text": "The Mistake Catalog",
+     "level": 2
+    },
+    {
+     "id": "the-closing-triage",
+     "text": "The Closing Triage",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "contentType": "tips",
+   "slug": "the-red-mist",
+   "title": "The Red Mist in Abyssal Escape: Mechanics Explained",
+   "date": "2026-10-18",
+   "category": "tips",
+   "headings": [
+    {
+     "id": "what-the-mist-is",
+     "text": "What the Mist Is",
+     "level": 2
+    },
+    {
+     "id": "the-dispel-system-pushing-back",
+     "text": "The Dispel System: Pushing Back",
+     "level": 2
+    },
+    {
+     "id": "how-the-mist-paces-the-round",
+     "text": "How the Mist Paces the Round",
+     "level": 2
+    },
+    {
+     "id": "killer-synergy-the-mist-works-for-the-dark-side",
+     "text": "Killer Synergy: The Mist Works for the Dark Side",
+     "level": 2
+    },
+    {
+     "id": "the-mist-is-the-game",
+     "text": "The Mist Is the Game",
+     "level": 2
+    }
+   ]
+  }
+ ]
+}
