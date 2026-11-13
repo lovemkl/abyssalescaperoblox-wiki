@@ -1,0 +1,50 @@
+name: Deploy to Cloudflare Workers
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install --no-audit --no-fund
+
+      - name: Render Adsterra ad slots
+        run: node scripts/render-ads.mjs
+        env:
+          NEXT_PUBLIC_AD_NATIVE_BANNER: ${{ secrets.NEXT_PUBLIC_AD_NATIVE_BANNER }}
+          NEXT_PUBLIC_AD_BANNER_728X90: ${{ secrets.NEXT_PUBLIC_AD_BANNER_728X90 }}
+          NEXT_PUBLIC_AD_BANNER_300X250: ${{ secrets.NEXT_PUBLIC_AD_BANNER_300X250 }}
+          NEXT_PUBLIC_AD_BANNER_468X60: ${{ secrets.NEXT_PUBLIC_AD_BANNER_468X60 }}
+          NEXT_PUBLIC_AD_SIDEBAR_160X600: ${{ secrets.NEXT_PUBLIC_AD_SIDEBAR_160X600 }}
+          NEXT_PUBLIC_AD_SIDEBAR_160X300: ${{ secrets.NEXT_PUBLIC_AD_SIDEBAR_160X300 }}
+          NEXT_PUBLIC_AD_MOBILE_320X50: ${{ secrets.NEXT_PUBLIC_AD_MOBILE_320X50 }}
+          NEXT_PUBLIC_ADSTERRA_NATIVE_URL: ${{ secrets.NEXT_PUBLIC_ADSTERRA_NATIVE_URL }}
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Generate content manifest
+        run: node scripts/gen-content-manifest.mjs
+      - name: Build OpenNext bundle
+        run: npx opennextjs-cloudflare build
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+          NEXT_PUBLIC_SITE_URL: https://abyssalescaperoblox.wiki
+          NEXT_PUBLIC_AD_NATIVE_BANNER: ${{ secrets.NEXT_PUBLIC_AD_NATIVE_BANNER }}
+          NEXT_PUBLIC_AD_BANNER_728X90: ${{ secrets.NEXT_PUBLIC_AD_BANNER_728X90 }}
+          NEXT_PUBLIC_AD_BANNER_300X250: ${{ secrets.NEXT_PUBLIC_AD_BANNER_300X250 }}
+          NEXT_PUBLIC_AD_BANNER_468X60: ${{ secrets.NEXT_PUBLIC_AD_BANNER_468X60 }}
+          NEXT_PUBLIC_AD_SIDEBAR_160X600: ${{ secrets.NEXT_PUBLIC_AD_SIDEBAR_160X600 }}
+          NEXT_PUBLIC_AD_SIDEBAR_160X300: ${{ secrets.NEXT_PUBLIC_AD_SIDEBAR_160X300 }}
+          NEXT_PUBLIC_AD_MOBILE_320X50: ${{ secrets.NEXT_PUBLIC_AD_MOBILE_320X50 }}
+          NEXT_PUBLIC_ADSTERRA_NATIVE_URL: ${{ secrets.NEXT_PUBLIC_ADSTERRA_NATIVE_URL }}
+      - name: Deploy to Cloudflare Workers
+        run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
