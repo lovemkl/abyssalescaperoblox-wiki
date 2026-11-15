@@ -34,6 +34,8 @@ jobs:
         run: npx opennextjs-cloudflare build
         env:
           NODE_OPTIONS: --max-old-space-size=4096
+          NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
           NEXT_PUBLIC_SITE_URL: https://abyssalescaperoblox.wiki
           NEXT_PUBLIC_AD_NATIVE_BANNER: ${{ secrets.NEXT_PUBLIC_AD_NATIVE_BANNER }}
           NEXT_PUBLIC_AD_BANNER_728X90: ${{ secrets.NEXT_PUBLIC_AD_BANNER_728X90 }}
